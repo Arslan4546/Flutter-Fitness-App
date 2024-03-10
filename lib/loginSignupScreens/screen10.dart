@@ -79,15 +79,24 @@ class _Screen10State extends State<Screen10> {
             ),
           ),
           const SizedBox(height: 10,),
-          const Row(
+           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("Forgot your password?",style: TextStyle(fontSize: 12,fontFamily: "fontMain1",color: Color(0xFFADA4A5),decoration: TextDecoration.underline ),)
+              GestureDetector(
+                  onTap: (){
+                    Navigator.pushNamed(context, "/screen12");
+                  },
+                  child: Text("Forgot your password?",style: TextStyle(fontSize: 12,fontFamily: "fontMain1",color: Color(0xFFADA4A5),decoration: TextDecoration.underline ),))
             ],
           ),
           const SizedBox(height: 200,),
-          const Button(
-            buttonText: "Login",
+          GestureDetector(
+            onTap: (){
+              Navigator.pushNamed(context, "/screen11");
+            },
+            child: const Button(
+              buttonText: "Login",
+            ),
           ),
           Container(
 

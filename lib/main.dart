@@ -1,4 +1,6 @@
 import 'package:fitness_app/loginSignupScreens/screen10.dart';
+import 'package:fitness_app/loginSignupScreens/screen11.dart';
+import 'package:fitness_app/loginSignupScreens/screen12.dart';
 import 'package:fitness_app/loginSignupScreens/screen8.dart';
 import 'package:fitness_app/onboardingScreens/screen1.dart';
 import 'package:fitness_app/onboardingScreens/screen2.dart';
@@ -36,6 +38,8 @@ class _MyAppState extends State<MyApp> {
         "/screen8":(context) => const Screen8(),
         "/screen9":(context) => const Screen9(),
         "/screen10":(context) => const Screen10(),
+        "/screen11":(context) => const Screen11(),
+        "/screen12":(context) => const Screen12(),
       }
     );
   }
