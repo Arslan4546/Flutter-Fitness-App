@@ -17,7 +17,7 @@ class _Screen7State extends State<Screen7> {
           scrollDirection: Axis.vertical,
           child: Column(
             children: [
-              const SizedBox(height: 55,),
+              const SizedBox(height: 70,),
              const Row(
                mainAxisAlignment: MainAxisAlignment.center,
                children: [
@@ -131,6 +131,7 @@ class _Screen7State extends State<Screen7> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
+                    const SizedBox(width: 8,),
                     Checkbox(
                       side: const BorderSide(
                         color: Colors.grey,
@@ -145,7 +146,7 @@ class _Screen7State extends State<Screen7> {
 
                Column(
                  children: [
-                   SizedBox(height: 5,),
+                   const SizedBox(height: 5,),
                    RichText(text: const TextSpan(
                      style: TextStyle(color: Colors.grey,fontSize: 12,fontFamily: "fontMain1"),
                     children: [
@@ -172,7 +173,7 @@ class _Screen7State extends State<Screen7> {
               Container(
                 width: double.infinity,
                 height: 15,
-                margin: const EdgeInsets.only(left: 60),
+                margin: const EdgeInsets.only(left: 52),
                 child:   RichText(text: const TextSpan(
                     style: TextStyle(color: Colors.grey,fontSize: 12,fontFamily: "fontMain1"),
                     children: [
@@ -184,7 +185,11 @@ class _Screen7State extends State<Screen7> {
 
                 )),
               ),
-              const Button(buttonText: 'Register',),
+              GestureDetector(
+                  onTap: (){
+                    Navigator.pushNamed(context, "/screen8");
+                  },
+                  child: const Button(buttonText: 'Register',)),
               Container(
 
                 width: double.infinity,
@@ -249,13 +254,17 @@ class _Screen7State extends State<Screen7> {
                   )
                 ],
               ),
-              const SizedBox(height: 30,),
+              const SizedBox(height: 37,),
 
-              const Row(
+               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Already have an account? ",style: TextStyle(color: Colors.black,fontSize: 15,fontFamily: "fontMain1"),),
-                  Text("Login",style: TextStyle(color: Color(0xFFC58BF2),fontSize: 15,fontFamily: "fontMain1"),),
+                  const Text("Already have an account? ",style: TextStyle(color: Colors.black,fontSize: 15,fontFamily: "fontMain1"),),
+                  GestureDetector(
+                      onTap: (){
+                        Navigator.pushNamed(context, "/screen10");
+                      },
+                      child: const Text("Login",style: TextStyle(color: Color(0xFFC58BF2),fontSize: 15,fontFamily: "fontMain1"),)),
                 ],
               ),
 
