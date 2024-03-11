@@ -1,3 +1,4 @@
+import 'package:fitness_app/components/button.dart';
 import 'package:flutter/material.dart';
 class Screen11 extends StatefulWidget {
   const Screen11({super.key});
@@ -12,14 +13,48 @@ class _Screen11State extends State<Screen11> {
     return  Scaffold(
       body: Column(
         children: [
+          const SizedBox(height: 60,),
           Container(
-            height: 223,
-            width: 345,
-          child: Text("go home screen"),
+            height: 400,
+            width: double.infinity,
+            margin: const EdgeInsets.symmetric(horizontal: 50,),
+            decoration: const BoxDecoration(
+                color: Colors.white,
+                image: DecorationImage(
+                  image: AssetImage(
+                    "assets/images/image9.png",
+                  ),
+                  fit: BoxFit.fitWidth,
+                )
+            ),
+          ),
+          const Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text("Welcome, Arslan",style: TextStyle(fontSize: 23,fontFamily: "fontMain",color: Colors.black),)
+            ],
+          ),
+          const SizedBox(height: 5,),
+          Container(
+            height: 60,
+            width: double.infinity,
+            margin: const EdgeInsets.symmetric(horizontal: 70),
+            child: const  Text("You are all set now, let’s reach your goals together with us",
+              style: TextStyle(
+                color: Colors.grey,
+                fontFamily: "fontMain1",
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+          const SizedBox(height: 120,),
+        const Button(buttonText: "Go To Home")
+            ],
+          ),
 
-          )
-        ],
-      ),
+
+
     );
   }
 }

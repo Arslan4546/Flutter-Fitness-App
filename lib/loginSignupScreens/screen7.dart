@@ -123,7 +123,6 @@ class _Screen7State extends State<Screen7> {
               ),
               const SizedBox(height: 15,),
               Container(
-
                 width: double.infinity,
                 height: 30,
 

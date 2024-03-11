@@ -86,10 +86,10 @@ class _Screen10State extends State<Screen10> {
                   onTap: (){
                     Navigator.pushNamed(context, "/screen12");
                   },
-                  child: Text("Forgot your password?",style: TextStyle(fontSize: 12,fontFamily: "fontMain1",color: Color(0xFFADA4A5),decoration: TextDecoration.underline ),))
+                  child: const Text("Forgot your password?",style: TextStyle(fontSize: 12,fontFamily: "fontMain1",color: Color(0xFFADA4A5),decoration: TextDecoration.underline ),))
             ],
           ),
-          const SizedBox(height: 200,),
+          const SizedBox(height: 190,),
           GestureDetector(
             onTap: (){
               Navigator.pushNamed(context, "/screen11");
