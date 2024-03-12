@@ -188,7 +188,7 @@ class _Screen7State extends State<Screen7> {
                   onTap: (){
                     Navigator.pushNamed(context, "/screen8");
                   },
-                  child: const Button(buttonText: 'Register',)),
+                  child: const  Button(buttonText: 'Register', buttonColor:  Color(0xFF92A3FD), buttonTextColor: Colors.white,)),
               Container(
 
                 width: double.infinity,

@@ -87,7 +87,8 @@ class _Screen13State extends State<Screen13> {
             onTap: (){
               Navigator.pushNamed(context, "/screen10");
             },
-             child: const  Button(buttonText: "Change Password")),
+             child: const  Button(buttonText: "Change Password", buttonColor:  Color(0xFF92A3FD),
+             buttonTextColor: Colors.white,)),
         ],
       ),
     );

@@ -98,7 +98,7 @@ class _Screen9State extends State<Screen9> {
                 onTap: (){
                   Navigator.pushNamed(context, "/screen11");
                 },
-                child: const Button(buttonText: "Confirm")),
+                child: const Button(buttonText: "Confirm", buttonColor:  Color(0xFF92A3FD), buttonTextColor: Colors.white,)),
           ],
         ),
       ),

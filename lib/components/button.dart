@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
-class Button extends StatelessWidget {
+class Button extends StatefulWidget {
   final String buttonText;
-  const Button({super.key,required this.buttonText});
+  final Color buttonColor;
+  final Color buttonTextColor;
+  const Button({super.key,required this.buttonText,required this.buttonColor,required this.buttonTextColor});
 
+
+  @override
+  State<Button> createState() => _ButtonState();
+}
+
+class _ButtonState extends State<Button> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -11,14 +19,15 @@ class Button extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 30,vertical: 45),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(40),
-        color: const Color(0xFF92A3FD),
+        color: widget.buttonColor,
 
 
       ),
       child: Center(
-        child: Text(buttonText,style: TextStyle(color: Colors.white.withOpacity(0.9),fontWeight: FontWeight.bold,
+        child: Text(widget.buttonText,style: TextStyle(color: widget.buttonTextColor.withOpacity(0.9),fontWeight: FontWeight.bold,
             fontSize: 20),),
       ),
     );
   }
 }
+

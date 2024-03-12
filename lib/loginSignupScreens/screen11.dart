@@ -62,7 +62,8 @@ class _Screen11State extends State<Screen11> {
           const SizedBox(
             height: 113,
           ),
-          const Button(buttonText: "Go To Home")
+          const Button(buttonText: "Go To Home", buttonColor:  Color(0xFF92A3FD),
+          buttonTextColor: Colors.white,)
         ],
       ),
     );

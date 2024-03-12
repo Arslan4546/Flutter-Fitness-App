@@ -95,7 +95,8 @@ class _Screen10State extends State<Screen10> {
               Navigator.pushNamed(context, "/screen11");
             },
             child: const Button(
-              buttonText: "Login",
+              buttonText: "Login", buttonColor:  Color(0xFF92A3FD),
+              buttonTextColor: Colors.white,
             ),
           ),
           Container(
