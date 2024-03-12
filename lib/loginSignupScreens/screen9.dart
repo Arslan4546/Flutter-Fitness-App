@@ -19,7 +19,7 @@ class _Screen9State extends State<Screen9> {
         child: Column(
           children: [
             const SizedBox(
-              height: 40,
+              height: 70,
             ),
             const Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -50,9 +50,6 @@ class _Screen9State extends State<Screen9> {
                 ),
               ],
             ),
-            const SizedBox(
-              height: 2,
-            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -67,7 +64,7 @@ class _Screen9State extends State<Screen9> {
               ],
             ),
             const SizedBox(
-              height: 55,
+              height: 45,
             ),
             const SingleChildScrollView(
               scrollDirection: Axis.horizontal,
@@ -91,12 +88,11 @@ class _Screen9State extends State<Screen9> {
                     text2:
                         'I have over 20 lbs to lose. I want to drop all this fat and gain muscle mass',
                   ),
-
                 ],
               ),
             ),
             const SizedBox(
-              height: 22,
+              height: 18,
             ),
             GestureDetector(
                 onTap: (){

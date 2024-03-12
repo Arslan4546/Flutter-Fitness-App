@@ -15,5 +15,17 @@ class Assets {
   static const String imagesImage7 = 'assets/images/image7.png';
   static const String imagesImage8 = 'assets/images/image8.png';
   static const String imagesImage9 = 'assets/images/image9.png';
+  static const String screenshotsSs1 = 'assets/screenshots/ss1.png';
+  static const String screenshotsSs10 = 'assets/screenshots/ss10.png';
+  static const String screenshotsSs11 = 'assets/screenshots/ss11.png';
+  static const String screenshotsSs12 = 'assets/screenshots/ss12.png';
+  static const String screenshotsSs2 = 'assets/screenshots/ss2.png';
+  static const String screenshotsSs3 = 'assets/screenshots/ss3.png';
+  static const String screenshotsSs4 = 'assets/screenshots/ss4.png';
+  static const String screenshotsSs5 = 'assets/screenshots/ss5.png';
+  static const String screenshotsSs6 = 'assets/screenshots/ss6.png';
+  static const String screenshotsSs7 = 'assets/screenshots/ss7.png';
+  static const String screenshotsSs8 = 'assets/screenshots/ss8.png';
+  static const String screenshotsSs9 = 'assets/screenshots/ss9.png';
 
 }

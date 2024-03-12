@@ -28,7 +28,7 @@ class _Screen8State extends State<Screen8> {
                   )),
             ),
             const SizedBox(
-              height: 30,
+              height: 20,
             ),
             const Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -60,7 +60,7 @@ class _Screen8State extends State<Screen8> {
               ],
             ),
             const SizedBox(
-              height: 25,
+              height: 20,
             ),
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 20),
@@ -218,7 +218,7 @@ class _Screen8State extends State<Screen8> {
               ),
             ),
             const SizedBox(
-              height:22,
+              height:20,
             ),
             GestureDetector(
               onTap: (){
