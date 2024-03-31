@@ -10,26 +10,6 @@ As a passionate Flutter developer, I've dedicated myself to mastering the art of
 I'm always open to connecting with fellow developers, tech enthusiasts, or anyone interested in the world of mobile app development. Whether you're looking for a collaborator on your next project, seeking advice, or just want to chat about the latest in Flutter.
 Thank you for stopping by my profile. Let's create something amazing together!
 
-## Screenshots
-
-<p align="center">
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss1.png" alt="Screenshot 1" width="30%" style="margin: 0 40px;"/>
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss2.png" alt="Screenshot 2" width="30%" style="margin: 0 40px;"/>
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss3.png" alt="Screenshot 3" width="30%" style="margin: 0 40px;"/>
-   <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss4.png" alt="Screenshot 1" width="30%" style="margin: 0 40px;"/>
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss5.png" alt="Screenshot 2" width="30%" style="margin: 0 40px;"/>
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss6.png" alt="Screenshot 3" width="30%" style="margin: 0 40px;"/>
-   <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss7.png" alt="Screenshot 1" width="30%" style="margin: 0 40px;"/>
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss8.png" alt="Screenshot 2" width="30%" style="margin: 0 40px;"/>
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss9.png" alt="Screenshot 3" width="30%" style="margin: 0 40px;"/>
-   <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss10.png" alt="Screenshot 1" width="30%" style="margin: 0 40px;"/>
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss11.png" alt="Screenshot 2" width="30%" style="margin: 0 40px;"/>
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss12.png" alt="Screenshot 3" width="30%" style="margin: 0 40px;"/>
-   <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss13.png" alt="Screenshot 1" width="30%" style="margin: 0 40px;"/>
-  <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss14.png" alt="Screenshot 2" width="30%" style="margin: 0 40px;"/>
-   <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss15.png" alt="Screenshot 2" width="30%" style="margin: 0 40px;"/>
-  
-</p>
 
 ## Contact Me
 
