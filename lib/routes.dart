@@ -1,3 +1,4 @@
+import 'package:fitness_app/loginSignupScreens/screen14.dart';
 import "package:fitness_app/onboardingScreens/screen1.dart";
 import "package:fitness_app/onboardingScreens/screen2.dart";
 import "package:fitness_app/onboardingScreens/screen3.dart";
@@ -26,4 +27,5 @@ final Map <String, WidgetBuilder> routes = {
   "/screen11":(BuildContext context) => const Screen11(),
   "/screen12":(BuildContext context) => const Screen12(),
   "/screen13":(BuildContext context) => const Screen13(),
+  "/screen14":(BuildContext context) => const Screen14(),
 };

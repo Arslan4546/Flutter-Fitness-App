@@ -1,5 +1,6 @@
 import 'package:fitness_app/components/button.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class Screen11 extends StatefulWidget {
   const Screen11({super.key});
@@ -62,8 +63,13 @@ class _Screen11State extends State<Screen11> {
           const SizedBox(
             height: 113,
           ),
-          const Button(buttonText: "Go To Home", buttonColor:  Color(0xFF92A3FD),
-          buttonTextColor: Colors.white,)
+          GestureDetector(
+            onTap: (){
+              Navigator.pushNamed(context, "/screen14");
+            },
+            child: const Button(buttonText: "Go To Home", buttonColor:  Color(0xFF92A3FD),
+            buttonTextColor: Colors.white,),
+          )
         ],
       ),
     );
