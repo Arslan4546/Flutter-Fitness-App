@@ -30,5 +30,10 @@ Thank you for stopping by my profile. Let's create something amazing together!
    <img src="https://github.com/Arslan4546/Flutter-Fitness-App/blob/main/assets/screenshots/ss15.png" alt="Screenshot 2" width="30%" style="margin: 0 40px;"/>
   
 </p>
+## Contact Me
 
+LinkedIn:https://www.linkedin.com/in/arslan4546/
+GitHub:https://github.com/Arslan4546
+Facebook:https://www.Facebook.com/Arslan4546
+Email: arslantariq4546@gmail.com
 
